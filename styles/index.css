@@ -4,26 +4,34 @@
 
 
 :root {
-  --color-primary:#381838;
-  --color-secundary:#D4B2C3;
-  --color-tertiary: #700B3E;
+  --color-main-primary:#381838;
+  --color-main-secundary: #700B3E;
+  --color-main-tertiary: #EBB2C9;
+  --color-dg-primary: #8F7B8E;
+  --color-dg-secundary: #D4B2C3;
+  --color-dg-tertiary: #F5F0F5;
 }
 
 body {
-  background-color: var(--color-secundary);
+  background-color: var(--color-dg-tertiary);
 }
 #hero {
   background-image: url(/HeroX4.jpg);
 }
 .nav-bg {
-  background-color: var(--color-primary);
+  background-color: var(--color-main-primary);
 }
 .bg-card{
-  background-color: var(--color-primary);
+  background-color: var(--color-main-primary);
 }
 .bt-color {
-  background-color: var(--color-tertiary);
+  background-color: var(--color-main-secundary);
+  color: var(--color-dg-tertiary);
 }
 .bd-color {
-  border: 3px solid var(--color-secundary);
+  border: 3px solid var(--color-dg-tertiary);
+}
+.cr-color {
+  background-color: var(--color-main-primary);
+  color: var(--color-dg-tertiary);
 }
