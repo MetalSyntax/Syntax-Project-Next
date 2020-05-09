@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  --color-primary:#381838;
+  --color-secundary:#D4B2C3;
+  --color-tertiary: #700B3E;
+}
+
+body {
+  background-color: var(--color-secundary);
+}
+#hero {
+  background-image: url(/HeroX4.jpg);
+}
+.nav-bg {
+  background-color: var(--color-primary);
+}
+.bg-card{
+  background-color: var(--color-primary);
+}
+.bt-color {
+  background-color: var(--color-tertiary);
+}
+.bd-color {
+  border: 3px solid var(--color-secundary);
+}
