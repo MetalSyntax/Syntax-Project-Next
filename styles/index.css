@@ -17,6 +17,7 @@ body {
 }
 #hero {
   background-image: url(/HeroX4.jpg);
+  height: 90vh;
 }
 .nav-bg {
   background-color: var(--color-main-primary);
