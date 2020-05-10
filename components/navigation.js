@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from 'next/link'
 
 const Navigation = () => (
     <nav className="flex items-center justify-between flex-wrap nav-bg p-4">
@@ -15,17 +15,17 @@ const Navigation = () => (
       </div>
       <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
         <div className="text-sm lg:flex-grow">
-        <Link href="#">
+        <Link href="/about">
           <a className="block lg:inline-block text-purple-100 text-2xl mr-4 text-right">
             About Us
           </a>
         </Link>
-        <Link href="#">
+        <Link href="/services">
           <a className="block lg:inline-block text-purple-100 text-2xl mr-4 text-right">
             Services
           </a>
         </Link>
-        <Link href="#">
+        <Link href="/contact">
           <a className="block lg:inline-block text-purple-100 text-2xl mr-4 text-right">
           Contact Us
           </a>

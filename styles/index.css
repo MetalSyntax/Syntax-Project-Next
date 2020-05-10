@@ -36,3 +36,6 @@ body {
   background-color: var(--color-main-primary);
   color: var(--color-dg-tertiary);
 }
+.tc {
+  color: var(--color-dg-tertiary);
+}
