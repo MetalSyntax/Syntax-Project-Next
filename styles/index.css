@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 :root {
   --color-main-primary:#381838;
   --color-main-secundary: #700B3E;
@@ -11,13 +10,38 @@
   --color-dg-secundary: #D4B2C3;
   --color-dg-tertiary: #F5F0F5;
 }
-
 body {
   background-color: var(--color-dg-tertiary);
 }
 #hero {
   background-image: url(/HeroX4.jpg);
-  height: 90vh;
+}
+#hero-about {
+  background-image: url(/CardsX3.jpg);
+}
+#hero-services {
+  background-image: url(/Cards2X3.jpg);
+}
+#hero-contact {
+  background-image: url(/Cards3X3.jpg);
+}
+@media (max-width: 1023px) {
+  #hero, #hero-about, #hero-services, #hero-contact{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 90vh;
+  }
+}
+@media (min-width: 1023px) {
+  #hero, #hero-about, #hero-services, #hero-contact{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 90vh;
+  }
 }
 .nav-bg {
   background-color: var(--color-main-primary);
