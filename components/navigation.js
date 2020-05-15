@@ -8,6 +8,7 @@ export default function Navigation({fixed}){
       <Link href="/">
         <img className="h-16 w-16 rounded-full border-solid border-2 border-white cursor-pointer" src="/TechCube.png" alt="Tech Cube" />
       </Link>
+      <p className="sm:hidden lg:flex pl-2 text-3xl">Tech Cube</p>
       </div>
       <div className="block lg:hidden">
         <button onClick={() => setMenuOpen(!menuOpen)} className="flex items-center px-3 py-2 rounded text-purple-200 ">
