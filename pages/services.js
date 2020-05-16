@@ -1,14 +1,12 @@
-import Navigation from '../components/navigation'
-import Footer from '../components/footer'
-import Link from 'next/link'
+import Container from '../components/Container'
 import Head from 'next/head'
+import Link from 'next/link'
 
 const Services = () => (
-    <div id="services">
+    <Container>
         <Head>
             <title>Services</title>
         </Head>
-        <Navigation/>
         <section id="hero-services" className="flex flex-wrap content-center py-8 px-4">
             <div className="w-full">
                  <Link href="/">
@@ -18,8 +16,7 @@ const Services = () => (
                 </Link>
             </div>
         </section>
-        <Footer/>
-    </div>
+    </Container>
 );
 
 export default Services;

@@ -1,14 +1,8 @@
-import Navigation from '../components/navigation'
-import Footer from '../components/footer'
-import Head from 'next/head'
+import Container from '../components/Container'
 import Link from 'next/link'
 
-export default () => (
-  <div id="home">
-    <Head>
-      <title>Tech Cube</title>
-    </Head>
-    <Navigation/>
+const Home = () => (
+    <Container>
     <section id="hero" className="flex flex-wrap content-center py-8 px-4">
       <div className="w-full">
         <h1 className="text-purple-100 text-4xl md:text-5xl lg:text-6xl text-center items-center">
@@ -60,6 +54,8 @@ export default () => (
       </div>
     </div>
   </section>
-  <Footer/>
-</div>
+  </Container>
 );
+
+export default Home;
+
