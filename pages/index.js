@@ -10,7 +10,7 @@ const Home = () => (
         </h1>
       </div>
     </section>
-    <section id="cards" className="flex flex-wrap py-6 px-2">
+    <section id="cards-home" className="flex flex-wrap py-6 px-2">
     <div className="sm:w-full lg:w-1/3 px-4 py-2">
       <div className="rounded overflow-hidden shadow-lg my-2 bg-card">
       <img className="w-full" src="/CardsX3.jpg" alt=""/>

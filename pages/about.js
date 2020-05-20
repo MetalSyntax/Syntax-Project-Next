@@ -16,6 +16,32 @@ const About = () => (
                 </Link>
             </div>
         </section>
+        <section id="cards-home">
+            <div className="flex flex-wrap py-6 px-2">
+            <div className="sm:w-full lg:w-1/2 px-4 py-2 flex items-center">
+                <div className="rounded overflow-hidden shadow-lg my-2 bg-card-text py-6 px-4">
+                    <p className="text-pink-900 text-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec posuere porta iaculis. Morbi tempus ante tellus, sit amet blandit enim condimentum ac. Fusce sagittis maximus nisl et consectetur. Cras non mattis elit. Mauris semper maximus massa, non posuere sem imperdiet ut. Morbi non justo nunc. Morbi congue, tellus ac aliquam congue, mi mi ullamcorper purus, eget pulvinar est mauris nec ipsum.Proin a vehicula eros, non luctus massa. Vestibulum porttitor lobortis massa, et ultrices mi semper quis. Pellentesque consequat facilisis ex, id ullamcorper neque efficitur at. Nam egestas, neque consectetur lacinia hendrerit, nibh diam lobortis sem, nec porttitor tortor sem sed risus. Donec a nisl pulvinar sapien volutpat vulputate sit amet quis nisl. Nam vel ligula tincidunt, tempor est ut, vehicula nulla. Aenean placerat massa et pulvinar tincidunt. Nunc sed sodales ante. Duis ante ipsum, sollicitudin vitae felis ut, pulvinar lacinia felis. Donec elementum tortor sit amet enim posuere, in interdum orci rhoncus. Nullam et neque pharetra, hendrerit magna a, tincidunt turpis. Fusce lobortis tellus et risus laoreet congue.</p>
+                </div>
+            </div>
+            <div className="sm:w-full lg:w-1/2 px-4 py-2 flex items-center">
+                <div className="rounded overflow-hidden shadow-lg my-1 bg-card-text">
+                    <img className="w-full" src="/CardsX3.jpg" alt=""/>
+                </div>
+            </div>
+            </div>
+            <div className="flex flex-wrap py-6 px-2">
+            <div className="sm:w-full lg:w-1/2 px-4 py-2 flex items-center">
+                <div className="rounded overflow-hidden shadow-lg my-1 bg-card-text">
+                    <img className="w-full" src="/Cards2X3.jpg" alt=""/>
+                </div>
+            </div>
+            <div className="sm:w-full lg:w-1/2 px-4 py-2 flex items-center">
+                <div className="rounded overflow-hidden shadow-lg my-2 bg-card-text py-6 px-4">
+                    <p className="text-pink-900 text-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec posuere porta iaculis. Morbi tempus ante tellus, sit amet blandit enim condimentum ac. Fusce sagittis maximus nisl et consectetur. Cras non mattis elit. Mauris semper maximus massa, non posuere sem imperdiet ut. Morbi non justo nunc. Morbi congue, tellus ac aliquam congue, mi mi ullamcorper purus, eget pulvinar est mauris nec ipsum.Proin a vehicula eros, non luctus massa. Vestibulum porttitor lobortis massa, et ultrices mi semper quis. Pellentesque consequat facilisis ex, id ullamcorper neque efficitur at. Nam egestas, neque consectetur lacinia hendrerit, nibh diam lobortis sem, nec porttitor tortor sem sed risus. Donec a nisl pulvinar sapien volutpat vulputate sit amet quis nisl. Nam vel ligula tincidunt, tempor est ut, vehicula nulla. Aenean placerat massa et pulvinar tincidunt. Nunc sed sodales ante. Duis ante ipsum, sollicitudin vitae felis ut, pulvinar lacinia felis. Donec elementum tortor sit amet enim posuere, in interdum orci rhoncus. Nullam et neque pharetra, hendrerit magna a, tincidunt turpis. Fusce lobortis tellus et risus laoreet congue.</p>
+                </div>
+            </div>
+            </div>
+        </section>
     </Container>
 );
 
