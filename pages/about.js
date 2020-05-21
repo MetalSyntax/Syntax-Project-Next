@@ -1,4 +1,4 @@
-import Container from '../components/Container'
+import Container from '../components/container'
 import Head from 'next/head'
 import Link from 'next/link'
 
