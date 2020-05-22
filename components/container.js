@@ -6,7 +6,7 @@ const Container = (props) => (
   <div>
     <Head>
       <title>Tech Cube</title>
-      <link rel="shortcut icon" href="./favicon.ico" />
+      <link rel="shortcut icon" href="./favicon.png" />
     </Head>
     <Navigation />
     <div>{props.children}</div>
