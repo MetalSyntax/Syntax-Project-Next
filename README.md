@@ -1,7 +1,4 @@
 # Syntax-Project-Next
- Simple Page with Next.js and TailwindCss. Design with Adobe XD
-
-# Syntax-Project-Next
 
 Syntax-Project-Next is a web page built with Next.js and TailwindCss. Design with Adobe XD.
 
